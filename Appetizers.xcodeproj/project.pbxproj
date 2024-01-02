@@ -14,6 +14,8 @@
 		CFA4D6732B3FA24100B64E2A /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA4D6722B3FA24100B64E2A /* AppetizerListView.swift */; };
 		CFA4D6752B3FA25700B64E2A /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA4D6742B3FA25700B64E2A /* AccountView.swift */; };
 		CFA4D6772B3FA26B00B64E2A /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA4D6762B3FA26B00B64E2A /* OrderView.swift */; };
+		CFA4D6792B3FB14100B64E2A /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA4D6782B3FB14100B64E2A /* Appetizer.swift */; };
+		CFA4D67B2B439CF600B64E2A /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA4D67A2B439CF600B64E2A /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		CFA4D6722B3FA24100B64E2A /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		CFA4D6742B3FA25700B64E2A /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		CFA4D6762B3FA26B00B64E2A /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		CFA4D6782B3FB14100B64E2A /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		CFA4D67A2B439CF600B64E2A /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				CFA4D6762B3FA26B00B64E2A /* OrderView.swift */,
 				CFA4D6682B3FA00F00B64E2A /* Assets.xcassets */,
 				CFA4D66A2B3FA00F00B64E2A /* Preview Content */,
+				CFA4D6782B3FB14100B64E2A /* Appetizer.swift */,
+				CFA4D67A2B439CF600B64E2A /* AppetizerListCell.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -146,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA4D6792B3FB14100B64E2A /* Appetizer.swift in Sources */,
+				CFA4D67B2B439CF600B64E2A /* AppetizerListCell.swift in Sources */,
 				CFA4D6752B3FA25700B64E2A /* AccountView.swift in Sources */,
 				CFA4D6672B3FA00C00B64E2A /* AppetizerTabView.swift in Sources */,
 				CFA4D6652B3FA00C00B64E2A /* AppetizersApp.swift in Sources */,
