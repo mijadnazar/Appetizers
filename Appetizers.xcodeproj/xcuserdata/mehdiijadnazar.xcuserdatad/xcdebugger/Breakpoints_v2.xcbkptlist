@@ -14,10 +14,42 @@
             filePath = "Appetizers/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "getAppetizer(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "40BAA7E5-C38D-4795-9FF7-26AF46CC62B3 - 2c0a2af54e6785f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Appetizers.NetworkManager.getAppetizer((Swift.Result&lt;Swift.Array&lt;Appetizers.Appetizer&gt;, Appetizers.APError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Appetizers"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mehdiijadnazar/code/projects/ios/SwiftUIBasics/Appetizers/Appetizers/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "844">
+               </Location>
+               <Location
+                  uuid = "40BAA7E5-C38D-4795-9FF7-26AF46CC62B3 - 2c0a2af54e6785f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Appetizers.NetworkManager.getAppetizer((Swift.Result&lt;Swift.Array&lt;Appetizers.Appetizer&gt;, Appetizers.APError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Appetizers"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mehdiijadnazar/code/projects/ios/SwiftUIBasics/Appetizers/Appetizers/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "811">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -30,13 +62,13 @@
             filePath = "Appetizers/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "getAppetizer(_:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "D4623A90-D2F5-4353-AD2A-B31902E8B9B1 - 6ddcb888958f04b6"
+                  uuid = "D4623A90-D2F5-4353-AD2A-B31902E8B9B1 - 6ddcb888958f0b57"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -46,12 +78,12 @@
                   urlString = "file:///Users/mehdiijadnazar/code/projects/ios/SwiftUIBasics/Appetizers/Appetizers/NetworkManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "1080">
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "1075">
                </Location>
                <Location
-                  uuid = "D4623A90-D2F5-4353-AD2A-B31902E8B9B1 - 6ddcb888958f04b6"
+                  uuid = "D4623A90-D2F5-4353-AD2A-B31902E8B9B1 - 6ddcb888958f0b57"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -61,8 +93,8 @@
                   urlString = "file:///Users/mehdiijadnazar/code/projects/ios/SwiftUIBasics/Appetizers/Appetizers/NetworkManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
                   offsetFromSymbolStart = "1041">
                </Location>
             </Locations>
@@ -78,13 +110,13 @@
             filePath = "Appetizers/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "getAppetizer(_:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "9324F1E1-C89C-409A-A7C1-6AC4AEE0A312 - 6ddcb888958f0bd3"
+                  uuid = "9324F1E1-C89C-409A-A7C1-6AC4AEE0A312 - 6ddcb888958f0bec"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -94,12 +126,12 @@
                   urlString = "file:///Users/mehdiijadnazar/code/projects/ios/SwiftUIBasics/Appetizers/Appetizers/NetworkManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "658">
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "650">
                </Location>
                <Location
-                  uuid = "9324F1E1-C89C-409A-A7C1-6AC4AEE0A312 - 6ddcb888958f0bd3"
+                  uuid = "9324F1E1-C89C-409A-A7C1-6AC4AEE0A312 - 6ddcb888958f0bec"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -109,8 +141,8 @@
                   urlString = "file:///Users/mehdiijadnazar/code/projects/ios/SwiftUIBasics/Appetizers/Appetizers/NetworkManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
                   offsetFromSymbolStart = "616">
                </Location>
             </Locations>
@@ -126,13 +158,13 @@
             filePath = "Appetizers/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "getAppetizer(_:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "AAC5072B-78FB-46C8-B12D-76ECA51373D5 - 6ddcb888958f0a85"
+                  uuid = "AAC5072B-78FB-46C8-B12D-76ECA51373D5 - 6ddcb888958f0947"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -142,12 +174,12 @@
                   urlString = "file:///Users/mehdiijadnazar/code/projects/ios/SwiftUIBasics/Appetizers/Appetizers/NetworkManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "1218">
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "984">
                </Location>
                <Location
-                  uuid = "AAC5072B-78FB-46C8-B12D-76ECA51373D5 - 6ddcb888958f0a85"
+                  uuid = "AAC5072B-78FB-46C8-B12D-76ECA51373D5 - 6ddcb888958f0aa6"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -157,8 +189,8 @@
                   urlString = "file:///Users/mehdiijadnazar/code/projects/ios/SwiftUIBasics/Appetizers/Appetizers/NetworkManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
                   offsetFromSymbolStart = "1244">
                </Location>
             </Locations>
