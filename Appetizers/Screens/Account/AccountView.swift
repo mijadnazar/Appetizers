@@ -27,7 +27,7 @@ struct AccountView: View {
                     )
                     
                     Button(action: {
-                        viewModel.saveChanges()
+                        print("saved")
                     }, label: {
                         Text("Save Changes")
                     })
@@ -45,13 +45,6 @@ struct AccountView: View {
 
             }
             .navigationTitle("Account")
-        }
-        .alert(item: $viewModel.alertItem) { alert in
-            Alert(
-                title: alert.title,
-                message: alert.message,
-                dismissButton: alert.dismissButton
-            )
         }
     }
 }
