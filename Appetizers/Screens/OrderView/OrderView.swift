@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct OrderView: View {
+    
     @EnvironmentObject var order: Order
+    
     var body: some View {
         NavigationView {
             ZStack {
@@ -24,9 +26,11 @@ struct OrderView: View {
                     Button(action: {
                         print("Order placed")
                     }, label: {
-                        APButton(title: "$\(order.orderPrice, specifier: "%.2f") - Place Order")
-                            .padding(.bottom, 25)
+//                        APButton(title: "$\(order.orderPrice, specifier: "%.2f") - Place Order")
+                        Text("$\(order.orderPrice, specifier: "%.2f") - Place Order")
                     })
+                    .standardButtonStyled()
+                    .padding(.bottom, 25)
                 }
                 .navigationTitle("🧾 Orders")
                 
