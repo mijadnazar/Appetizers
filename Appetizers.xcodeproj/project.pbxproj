@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CFA24F9D2B461DEE000799A0 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA24F9C2B461DEE000799A0 /* APButton.swift */; };
 		CFA24F9F2B461EC6000799A0 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA24F9E2B461EC6000799A0 /* XDismissButton.swift */; };
+		CFA24FAF2B4786DF000799A0 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA24FAE2B4786DF000799A0 /* EmptyState.swift */; };
 		CFA4D6652B3FA00C00B64E2A /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA4D6642B3FA00C00B64E2A /* AppetizersApp.swift */; };
 		CFA4D6672B3FA00C00B64E2A /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA4D6662B3FA00C00B64E2A /* AppetizerTabView.swift */; };
 		CFA4D6692B3FA00F00B64E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA4D6682B3FA00F00B64E2A /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		CFA24F9C2B461DEE000799A0 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		CFA24F9E2B461EC6000799A0 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		CFA24FAE2B4786DF000799A0 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		CFA4D6612B3FA00C00B64E2A /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA4D6642B3FA00C00B64E2A /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
 		CFA4D6662B3FA00C00B64E2A /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,14 @@
 				CFA24F9E2B461EC6000799A0 /* XDismissButton.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		CFA24FAD2B4786C4000799A0 /* Empty States */ = {
+			isa = PBXGroup;
+			children = (
+				CFA24FAE2B4786DF000799A0 /* EmptyState.swift */,
+			);
+			path = "Empty States";
 			sourceTree = "<group>";
 		};
 		CFA4D6582B3FA00C00B64E2A = {
@@ -189,6 +199,7 @@
 		CFA4D6932B44DD0300B64E2A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CFA24FAD2B4786C4000799A0 /* Empty States */,
 				CFA24F9B2B461DD9000799A0 /* Buttons */,
 				CFA4D6962B44DD1F00B64E2A /* Image */,
 				CFA4D6952B44DD1300B64E2A /* Cells */,
@@ -294,6 +305,7 @@
 				CFA4D6792B3FB14100B64E2A /* Appetizer.swift in Sources */,
 				CFA4D67F2B43A06B00B64E2A /* APError.swift in Sources */,
 				CFA24F9F2B461EC6000799A0 /* XDismissButton.swift in Sources */,
+				CFA24FAF2B4786DF000799A0 /* EmptyState.swift in Sources */,
 				CFA4D67B2B439CF600B64E2A /* AppetizerListCell.swift in Sources */,
 				CFA4D6982B44DFEC00B64E2A /* AppetizerDetailView.swift in Sources */,
 				CFA4D6812B43A9F800B64E2A /* AppetizerListViewModel.swift in Sources */,
