@@ -14,20 +14,20 @@ struct AccountView: View {
         NavigationView {
             Form {
                 Section {
-                    TextField("First Name", text: $viewModel.user.firstName)
-                    TextField("Last Name", text: $viewModel.user.lastName)
-                    TextField("Email", text: $viewModel.user.email)
+                    TextField("First Name", text: $viewModel.firstName)
+                    TextField("Last Name", text: $viewModel.lastName)
+                    TextField("Email", text: $viewModel.email)
                         .keyboardType(.emailAddress)
                         .textInputAutocapitalization(.none)
                         .autocorrectionDisabled(true)
                     DatePicker(
                         "Birthdate",
-                        selection: $viewModel.user.birthDate,
+                        selection: $viewModel.birthDate,
                         displayedComponents: .date
                     )
                     
                     Button(action: {
-                        viewModel.saveChanges()
+                        print("saved")
                     }, label: {
                         Text("Save Changes")
                     })
@@ -36,8 +36,8 @@ struct AccountView: View {
                 }
                 
                 Section {
-                    Toggle("Extra Napkins", isOn: $viewModel.user.extraNapkins)
-                    Toggle("Frequent Refills", isOn: $viewModel.user.frequentRefills)
+                    Toggle("Extra Napkins", isOn: $viewModel.extraNapkins)
+                    Toggle("Frequent Refills", isOn: $viewModel.frequentRefills)
                 } header: {
                     Text("Account")
                 }
@@ -45,16 +45,6 @@ struct AccountView: View {
 
             }
             .navigationTitle("Account")
-        }
-        .onAppear {
-            viewModel.retrieveUser()
-        }
-        .alert(item: $viewModel.alertItem) { alert in
-            Alert(
-                title: alert.title,
-                message: alert.message,
-                dismissButton: alert.dismissButton
-            )
         }
     }
 }
