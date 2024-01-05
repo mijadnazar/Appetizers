@@ -8,31 +8,40 @@
 import SwiftUI
 
 struct OrderView: View {
-    @State private var orderItems = MockData.orders
+    
+    @EnvironmentObject var order: Order
+    
     var body: some View {
         NavigationView {
-            VStack {
-                List {
-                    ForEach(orderItems) { appetizer in
-                        AppetizerListCell(appetizer: appetizer)
+            ZStack {
+                VStack {
+                    List {
+                        ForEach(order.appetizers) { appetizer in
+                            AppetizerListCell(appetizer: appetizer)
+                        }
+                        .onDelete(perform: order.deleteItems)
                     }
-                    .onDelete(perform: deleteItems)
+                    .listStyle(PlainListStyle())
+                    
+                    Button(action: {
+                        print("Order placed")
+                    }, label: {
+//                        APButton(title: "$\(order.orderPrice, specifier: "%.2f") - Place Order")
+                        Text("$\(order.orderPrice, specifier: "%.2f") - Place Order")
+                    })
+                    .standardButtonStyled()
+                    .padding(.bottom, 25)
                 }
-                .listStyle(PlainListStyle())
+                .navigationTitle("🧾 Orders")
                 
-                Button(action: {
-                    print("Order placed")
-                }, label: {
-                    APButton(title: "$9.99 - Place Order")
-                        .padding(.bottom, 25)
-                })
+                if order.appetizers.isEmpty {
+                    EmptyState(
+                        imageName: "empty-order",
+                        message: "You have no items in your order.\n Please add an appetizer"
+                    )
+                }
             }
-            .navigationTitle("🧾 Orders")
         }
-    }
-    
-    func deleteItems(at offsets: IndexSet) {
-        orderItems.remove(atOffsets: offsets)
     }
 }
 
